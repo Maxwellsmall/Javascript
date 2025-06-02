@@ -7,7 +7,6 @@ topics.push("strings");
 topics.push(1, 2, 3);
 topics.push({ name: "maxwell", age: 18, isActive: true });
 console.log(topics);
-
 topics.pop();
 console.log(topics);
 

@@ -49,6 +49,21 @@ const ent = [
 console.log(Object.fromEntries(ent));
 
 // using spread operators (...)
-const original = {A : 77, B : 66}
-const final = {...original, C : 55}
-console.log(final)
+const original = { A: 77, B: 66 };
+const final = { ...original, C: 55 };
+console.log(final);
+
+const profile = {
+  name: "maxwell",
+  age: 14,
+  title: "frontend",
+};
+console.log(Object.keys(profile));
+
+const pro = {
+  name: "jin",
+  user: 2,
+};
+
+console.log(Object.values(pro))
+
